@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shuvam Aich - My Portfolio</title>
+
+    <link rel="icon" href="./images/logo.png">
+
+
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="./script/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--FULLPAGE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.css" integrity="sha256-3IkGqGYOvq1Ype2MXFwVJFeBtBACgiveho3SacOEEP8=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js" integrity="sha256-e13jRNqOX98m6UAwI/yZTpcDseJtA8s86yfFs4Sqrv8=" crossorigin="anonymous"></script>
+
+    <!--Hover.css-->
+    <link rel="stylesheet" href="./style/hover-min.css" media="all">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+
+    <!--Flickity-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <script src="./script/index.js"></script>
+    <script src="./script/timer.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+
+    <!--Navigation Bar-->
+    <div class="navWrapper">
+        <div id="nav-icon2">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+    <div class="navItems">
+
+        <div id="mySidenav" class="sidenav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achieve">Achievements</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </div>
+
+    <!--End of Navigation Bar-->
+
+    <!--Logo Band-->
+    <a href="./index.html" class="logoLink">
+        <img src="./images/logo.png" class="myLogo">
+
+    </a>
+    <!--End of Logo-->
+
+
+    <!--Parallax Page-->
+    <div id="fullPage">
+
+        <!--Landing-->
+
+        <!--Section 1-->
+        <div class="section sec1" id="home">
+            <div class="sec1Wrapper text-center">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Hey</h3>
+                        <h1 class="title-text text-uppercase">I am Shuvam</h1>
+                        <h5 class="title-text text-uppercase">Student</h5>
+                    </div>
+                    <div class="mypic">
+                        <img src="images/banner-image.png" alt="banner-img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div id="particles-js"></div>
+
+        </div>
+        <!--End of Section 1-->
+
+        <!--ABOUT-->
+        <div class="section secAbout" align="center" id="about">
+            <div class="col-lg-6 col-md-12 about-title">
+                <h1 class=" title-text pt-10">
+                    Let Me Introduce Myself
+                </h1>
+                <div class="paragraph py-4 w-75">
+                    <p class="para">
+                        I am a student currently pursuing my Bachelors in Computer Science from St. Xavier's College, Kolkata. I am also a national level basketball player. My main areas of interest are Web Development and Machine Learning. I wish to work with AI in Sports someday.
+                    </p>
+                    <p class="para">
+                        Have a look at my Resume!
+                    </p>
+                </div>
+                <div>
+                    <button type="button" class="btn button primary-button text-uppercase" onclick="window.location.href = 'https://drive.google.com/file/d/1dDmfmI2H1aQl5K3zVpwFXnuCts0Ms-P1/view?usp=sharing'">Download cv</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Section 2-->
+        <!--SKILLS-->
+        <!--<div class="section sec2" id="skills">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class=" title-text">Skills</h1>
+                        <p class="para" style="color: rgb(7, 84, 87)"><br> "When a country has the skill and self-confidence to take action against its biggest problems, it makes outsiders eager to be a part of it." <br>-Bill Gates
+                        </p>
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="images/services/s1.png" alt="Services-1">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Programmer</h5>
+                                    <p><b>
+                                        <font color="#117573">
+                                            C <br>C++ &nbspJava <br> Python</font></b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="images/services/s2.png" alt="Services-2">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">graphic desing</h5>
+                                    <p><b>
+                                        <font color="#117573">
+                                            Starting to gain experience <br>in the field of <br>Graphic Designing</font></b>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="images/services/s3.png" alt="Services-3">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">web design</h5>
+                                    <font color="#117573">
+                                        <p><b>
+                                            Web development using HTML, CSS and <br>JavaScript</b>
+                                        </p>
+                                    </font>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="services">
+                                <div class="sevices-img text-center py-4">
+                                    <img src="images/services/s4.png" alt="Services-4">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title text-uppercase font-roboto">Machine Learning</h5>
+                                    <font color="#117573">
+                                        <p><b>
+                                            A beginner in the <br>field of <br>Machine Learning</b>
+                                        </p>
+                                    </font>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    -->
+        <div class="section sec2" id="skills">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center services-title">
+                        <h1 class=" title-text">Skills</h1>
+                        <p class="para" style="color: rgb(7, 84, 87)"><br> "When a country has the skill and self-confidence to take action against its biggest problems, it makes outsiders eager to be a part of it." <br>-Bill Gates
+                        </p>
+                    </div>
+                </div>
+                <div class="container services-list">
+                    <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "groupCells": 1, "prevNextButtons": false  }'>
+                        <div class="carousel-cell">
+                            <img class="cell" src="images/services/s1.png" alt="Services-1">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-uppercase font-roboto">Programmer</h5>
+                                <p><b>
+                                <font color="#117573">
+                                C <br>C++ &nbspJava <br> Python</font></b>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="carousel-cell">
+
+                            <img class="cell" src="images/services/s2.png" alt="Services-2">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-uppercase font-roboto">graphic desing</h5>
+                                <p><b>
+                                <font color="#117573">
+                                Starting to gain experience <br>in the field of <br>Graphic Designing</font></b>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+
+                            <img class="cell" src="images/services/s3.png" alt="Services-3">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-uppercase font-roboto">web design</h5>
+                                <font color="#117573">
+                                    <p><b>
+                                                Web development using HTML, CSS and <br>JavaScript</b>
+                                    </p>
+                                </font>
+                            </div>
+                        </div>
+                        <div class="carousel-cell">
+
+                            <img class="cell" src="images/services/s4.png" alt="Services-4">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-uppercase font-roboto">Machine Learning</h5>
+                                <font color="#117573">
+                                    <p><b>
+                                    A beginner in the <br>field of <br>Machine Learning</b>
+                                    </p>
+                                </font>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--End of Section 2-->
+
+        <!--PROJECT-->
+
+        <div class="section secProject" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center project-title">
+                        <h1 class=" title-text">Project and Publications</h1>
+
+                    </div>
+                </div>
+
+                <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true  }'>
+                    <div class="carousel-cell">
+
+                        <img class="cell size" src="images/portfolio/Pebbles.png" alt="portfolio-1" class="img-fluid" onclick="window.location.href = 'https://drive.google.com/file/d/1oZCUWV46Np_elhboCkWbRXopAbnWJshK/view?usp=sharing'">
+
+
+                        <div class="title py-4 text-center" style="font-weight: bolder; color: rgb(6, 47, 73,0.9);">
+                            <h4 class="text-uppercase text-center" style="font-weight: bolder;">Pebbles 2020</h4>
+                            <p>Self-Driving Cars, Publication</p>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-cell">
+
+
+                        <img class="cell size" src="images/portfolio/ML.jpg" alt="portfolio-2" class="img-fluid" onclick="window.location.href='https://colab.research.google.com/drive/1cahz4-0jnHPmI8N-LndG2Tng955XSYhz'">
+
+
+                        <div class="title py-4 text-center" style="font-weight: bolder; color: rgb(6, 47, 73,0.9);">
+                            <h4 class="text-uppercase text-center" style="font-weight: bolder;">Machine Learning</h4>
+                            <p>Sentiment Analysis, Project</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!--  <div class="section secProject" id="projects">
+            <div class="row">
+                <div class="col-sm-12 text-center element-item latest">
+                    <h3 class="text-center heading">Projects&nbsp and&nbsp Publications<br><br></h3>
+                </div>
+            </div>
+            <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "prevNextButtons": false  }'>
+                <div class="carousel-cell">
+                    <img class="img" src="images/portfolio/Pebbles.png" alt="portfolio-1" class="img-fluid" onclick="window.location.href = 'https://drive.google.com/file/d/1oZCUWV46Np_elhboCkWbRXopAbnWJshK/view?usp=sharing'">
+                    <div class="title py-4">
+                        <h4 class="text-uppercase" style="color: rgb(103, 241, 241);">Pebbles 2020</h4>
+                        <p style="color: whitesmoke">Self-Driving Cars, Publication</p>
+                    </div>
+                </div>
+                <div class="corousel-cell">
+                    <img class="img" src="images/portfolio/ML.jpg" alt="portfolio-2" class="img-fluid" onclick="window.location.href='https://colab.research.google.com/drive/1cahz4-0jnHPmI8N-LndG2Tng955XSYhz'">
+                    <div class="title py-4">
+                        <h4 class="text-uppercase" style="color: rgb(103, 241, 241);">Machine Learning</h4>
+                        <p style=" color: whitesmoke ">Sentiment Analysis, Project</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Achievements-->
+        <div class="section sec3" id="achieve">
+
+            <div class="sectionHeader text-center">
+                <div class="container">
+                    <h3 class="sectionName eventName">Achievements</h3>
+                    <p class="eventDesc text-light"> "Without continual growth and progress, such words as improvement, achievement, and success have no meaning."<br>-Benjamin Franklin</p>
+                </div>
+            </div>
+
+            <!--Auto rotate carousel-->
+
+
+            <div class="text-center cards">
+                <figure class="icon-cards mt-3">
+                    <div class="icon-cards__content">
+                        <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                        </div>
+                        <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                        </div>
+                        <div class="icon-cards__item d-flex align-items-center justify-content-center">
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+
+
+        </div>
+
+        <!--CONTACT-->
+
+        <div class="section sec4" id="contact">
+            <h1 class="text-light text-center contact">Contact</h1>
+            <div class="social-wrapper">
+                <a href="https://www.facebook.com/shuvam.aich/" target="_blank"><i class="fab fa-facebook-f social"></i></a>
+                <br>
+                <a href="https://github.com/ShuvamAich" target="_blank"><i class="fab fa-github social"></i></a>
+                <br>
+                <a href="https://www.instagram.com/stoned_baller/" target="_blank"><i class="fab fa-instagram social"></i></a>
+                <br>
+                <a href="https://www.linkedin.com/in/shuvam-aich-3495b21a3/" target="_blank"><i class="fab fa-linkedin social"></i></a>
+            </div>
+
+            <div class="container-fluid wrapper text-center text-light">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 style="opacity: .7;">SHUVAM AICH</h3>
+                        <a href="mailto:shuvamaich10@gmail.com">
+                            <center>shuvamaich10@gmail.com</center>
+                        </a><br/>
+                        <b>+91 9836924491</b>
+                    </div>
+                    <div class="col-12">
+                        <h3 style="opacity: .7;">Copyright ©2020 All rights reserved</h3>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script src="./script/particles.min.js"></script>
+        <script src="./script/app.js"></script>
+
+        <script>
+            new fullpage('#fullPage', {
+                autoScrolling: true,
+                scrollBar: false,
+                navigation: true,
+                showActiveTooltip: true,
+                scrollingSpeed: 500,
+                controlArrows: false,
+                slidesNavigation: true
+            })
+        </script>
+    </div>
+</body>
+
+</html>
